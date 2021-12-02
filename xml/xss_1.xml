@@ -1,0 +1,5 @@
+<krpano>
+<action name="test" autorun="onstart" type="Javascript"><![CDATA[
+		alert(document.cookie);
+	]]></action>
+</krpano>
