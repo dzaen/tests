@@ -1,0 +1,20 @@
+{
+  "messages": [
+    "attribute openapi is not of type `object`"
+  ],
+  "schemaValidationMessages": [
+    {
+      "level": "error",
+      "domain": "validation",
+      "keyword": "type",
+      "message": "instance type (string) does not match any allowed primitive type (allowed: [\"object\"])",
+      "schema": {
+        "loadingURI": "#",
+        "pointer": ""
+      },
+      "instance": {
+        "pointer": ""
+      }
+    }
+  ]
+}
