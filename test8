@@ -1,0 +1,18 @@
+  with function r return varchar2 is
+    f sys.utl_file.file_type;
+    s varchar2(4000);
+    outp varchar2(32767) := '';
+  begin
+    f := sys.utl_file.fopen('','','r');
+    loop
+      begin
+        sys.utl_file.get_line(f, s);
+        outp := outp || s || chr(10);
+      exception
+        when no_data_found then exit;
+      end;
+    end loop;
+    sys.utl_file.fclose(f);
+    return outp;
+  end;
+  select r() as content from dual
