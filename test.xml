@@ -1,0 +1,16 @@
+  <?xml version="1.0" encoding="utf-8"?>
+  <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+            xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <Worksheet ss:Name="Sheet1">
+      <Table>
+        <Row>
+          <Cell><Data ss:Type="String">Column1</Data></Cell>
+          <Cell><Data ss:Type="String">Column2</Data></Cell>
+        </Row>
+        <Row>
+          <Cell><Data ss:Type="String">value1</Data></Cell>
+          <Cell><Data ss:Type="String">value2</Data></Cell>
+        </Row>
+      </Table>
+    </Worksheet>
+  </Workbook>
